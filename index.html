@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/83e69d3f67.js" crossorigin="anonymous"></script>
+    <title>Icém | Turismo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+    <body>
+        <section class="container">
+            <header>
+                <h2 class="logo">Turismo Paulista</h2>
+                <div class="toggle"></div>
+            </header>
+            <img src="/assets/festa-julina.jpg">
+            <div class="overlay"></div>
+            <div class="text">
+                <h2>Princesa do Vale</h2>
+                <p>A origem do nome de <strong> ICÉM</strong> da língua tupi-garani que significa "ÁGUA DOCE" antiga denominação do Município, sendo que este nome foi dado por motivo de existir no Município 02 (dois) grandes rios em volume de água doce.</p>
+                <a href="https://www.icem.sp.gov.br/">Explore</a>
+            </div>
+        </section>
+
+        <div class="menu">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="https://www.icem.sp.gov.br/">Município</a></li>
+                <li><a href="">Serviços</a></li>
+                <li><a href="">Atendimentos</a></li>
+                <li><a href="">Contato</a></li>
+            </ul>
+        </div>
+        <script>
+            const menuToggle = document.querySelector('.toggle');
+            const container = document.querySelector('.container');
+
+            menuToggle.addEventListener('click', () => {
+                menuToggle.classList.toggle('active');
+                container.classList.toggle('active');
+            })
+        </script>
+    </body>
+</html>
