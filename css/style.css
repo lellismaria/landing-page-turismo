@@ -143,3 +143,16 @@ header .logo{
 .menu ul li a:hover{
     color: #03a9f4;
 }
+
+@media (max-width: 991px)
+{
+  .container,
+  .container header
+  {
+    padding: 40px;
+  }
+  .text h2
+  {
+    font-size: 3em;
+  }
+}
